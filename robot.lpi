@@ -1,0 +1,387 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <ProjectOptions>
+    <Version Value="12"/>
+    <General>
+      <Flags>
+        <LRSInOutputDirectory Value="False"/>
+        <CompatibilityMode Value="True"/>
+      </Flags>
+      <Title Value="Robot"/>
+    </General>
+    <BuildModes Count="3" Active="Release">
+      <Item1 Name="default" Default="True"/>
+      <Item2 Name="Debug">
+        <CompilerOptions>
+          <Version Value="11"/>
+          <Target>
+            <Filename Value="robot"/>
+          </Target>
+          <Parsing>
+            <SyntaxOptions>
+              <IncludeAssertionCode Value="True"/>
+              <UseAnsiStrings Value="False"/>
+            </SyntaxOptions>
+          </Parsing>
+          <CodeGeneration>
+            <Checks>
+              <IOChecks Value="True"/>
+              <RangeChecks Value="True"/>
+              <OverflowChecks Value="True"/>
+              <StackChecks Value="True"/>
+            </Checks>
+            <VerifyObjMethodCallValidity Value="True"/>
+          </CodeGeneration>
+          <Linking>
+            <Debugging>
+              <DebugInfoType Value="dsDwarf3"/>
+              <UseHeaptrc Value="True"/>
+              <TrashVariables Value="True"/>
+              <UseExternalDbgSyms Value="True"/>
+            </Debugging>
+            <Options>
+              <Win32>
+                <GraphicApplication Value="True"/>
+              </Win32>
+            </Options>
+          </Linking>
+          <Other>
+            <Verbosity>
+              <ShowExecInfo Value="True"/>
+            </Verbosity>
+            <CreateMakefileOnBuild Value="True"/>
+          </Other>
+        </CompilerOptions>
+      </Item2>
+      <Item3 Name="Release">
+        <CompilerOptions>
+          <Version Value="11"/>
+          <Target>
+            <Filename Value="robot"/>
+          </Target>
+          <Parsing>
+            <SyntaxOptions>
+              <UseAnsiStrings Value="False"/>
+            </SyntaxOptions>
+          </Parsing>
+          <CodeGeneration>
+            <SmartLinkUnit Value="True"/>
+            <Optimizations>
+              <OptimizationLevel Value="3"/>
+            </Optimizations>
+            <SmallerCode Value="True"/>
+          </CodeGeneration>
+          <Linking>
+            <Debugging>
+              <GenerateDebugInfo Value="False"/>
+              <RunWithoutDebug Value="True"/>
+            </Debugging>
+            <Options>
+              <Win32>
+                <GraphicApplication Value="True"/>
+              </Win32>
+            </Options>
+          </Linking>
+          <Other>
+            <Verbosity>
+              <ShowExecInfo Value="True"/>
+            </Verbosity>
+            <CreateMakefileOnBuild Value="True"/>
+          </Other>
+        </CompilerOptions>
+      </Item3>
+    </BuildModes>
+    <PublishOptions>
+      <Version Value="2"/>
+    </PublishOptions>
+    <RunParams>
+      <local>
+        <LaunchingApplication PathPlusParams="/usr/X11R6/bin/xterm -T &apos;Lazarus Run Output&apos; -e $(LazarusDir)/tools/runwait.sh $(TargetCmdLine)"/>
+      </local>
+      <FormatVersion Value="2"/>
+      <Modes Count="1">
+        <Mode0 Name="default">
+          <local>
+            <LaunchingApplication PathPlusParams="/usr/X11R6/bin/xterm -T &apos;Lazarus Run Output&apos; -e $(LazarusDir)/tools/runwait.sh $(TargetCmdLine)"/>
+          </local>
+        </Mode0>
+      </Modes>
+    </RunParams>
+    <RequiredPackages Count="1">
+      <Item1>
+        <PackageName Value="LCL"/>
+      </Item1>
+    </RequiredPackages>
+    <Units Count="34">
+      <Unit0>
+        <Filename Value="robot.lpr"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="1"/>
+        <CursorPos Y="16"/>
+        <UsageCount Value="176"/>
+        <Loaded Value="True"/>
+        <LoadedDesigner Value="True"/>
+      </Unit0>
+      <Unit1>
+        <Filename Value="umainform.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="MainForm"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="uMainForm"/>
+        <IsVisibleTab Value="True"/>
+        <TopLine Value="1744"/>
+        <CursorPos X="4" Y="1755"/>
+        <UsageCount Value="176"/>
+        <Loaded Value="True"/>
+        <LoadedDesigner Value="True"/>
+      </Unit1>
+      <Unit2>
+        <Filename Value="usr/local/share/lazarus/lcl/graphics.pp"/>
+        <UnitName Value="Graphics"/>
+        <TopLine Value="1837"/>
+        <CursorPos X="35" Y="1431"/>
+        <UsageCount Value="31"/>
+      </Unit2>
+      <Unit3>
+        <Filename Value="usr/local/share/lazarus/lcl/graphtype.pp"/>
+        <UnitName Value="GraphType"/>
+        <TopLine Value="722"/>
+        <CursorPos X="20" Y="41"/>
+        <UsageCount Value="31"/>
+      </Unit3>
+      <Unit4>
+        <Filename Value="usr/local/share/fpcsrc/rtl/objpas/sysutils/sysstrh.inc"/>
+        <TopLine Value="148"/>
+        <CursorPos X="60" Y="174"/>
+        <UsageCount Value="31"/>
+      </Unit4>
+      <Unit5>
+        <Filename Value="usr/local/share/fpcsrc/rtl/objpas/strutils.pp"/>
+        <TopLine Value="332"/>
+        <CursorPos X="20" Y="356"/>
+        <UsageCount Value="28"/>
+      </Unit5>
+      <Unit6>
+        <Filename Value="usr/local/share/fpcsrc/rtl/inc/mathh.inc"/>
+        <TopLine Value="3"/>
+        <CursorPos X="63" Y="50"/>
+        <UsageCount Value="30"/>
+      </Unit6>
+      <Unit7>
+        <Filename Value="usr/local/share/fpcsrc/rtl/objpas/classes/classesh.inc"/>
+        <TopLine Value="552"/>
+        <CursorPos X="47" Y="571"/>
+        <UsageCount Value="17"/>
+      </Unit7>
+      <Unit8>
+        <Filename Value="usr/local/share/lazarus/lcl/controls.pp"/>
+        <UnitName Value="Controls"/>
+        <TopLine Value="38"/>
+        <CursorPos X="15" Y="43"/>
+        <UsageCount Value="24"/>
+      </Unit8>
+      <Unit9>
+        <Filename Value="usr/local/share/lazarus/lcl/forms.pp"/>
+        <UnitName Value="Forms"/>
+        <TopLine Value="495"/>
+        <CursorPos X="16" Y="514"/>
+        <UsageCount Value="1"/>
+      </Unit9>
+      <Unit10>
+        <Filename Value="usr/local/share/fpcsrc/rtl/inc/systemh.inc"/>
+        <TopLine Value="526"/>
+        <CursorPos X="16" Y="557"/>
+        <UsageCount Value="1"/>
+      </Unit10>
+      <Unit11>
+        <Filename Value="usr/local/share/fpcsrc/rtl/objpas/objpas.pp"/>
+        <CursorPos X="33" Y="93"/>
+        <UsageCount Value="1"/>
+      </Unit11>
+      <Unit12>
+        <Filename Value="usr/local/share/fpcsrc/fcl/image/fpimage.pp"/>
+        <UnitName Value="FPimage"/>
+        <TopLine Value="88"/>
+        <CursorPos X="10" Y="267"/>
+        <UsageCount Value="2"/>
+      </Unit12>
+      <Unit13>
+        <Filename Value="usr/local/share/lazarus/lcl/dialogs.pp"/>
+        <UnitName Value="Dialogs"/>
+        <TopLine Value="429"/>
+        <CursorPos X="14" Y="455"/>
+        <UsageCount Value="1"/>
+      </Unit13>
+      <Unit14>
+        <Filename Value="usr/local/share/lazarus/lcl/include/commondialog.inc"/>
+        <TopLine Value="63"/>
+        <CursorPos Y="100"/>
+        <UsageCount Value="1"/>
+      </Unit14>
+      <Unit15>
+        <Filename Value="usr/local/share/lazarus/lcl/include/promptdialog.inc"/>
+        <TopLine Value="524"/>
+        <CursorPos Y="559"/>
+        <UsageCount Value="1"/>
+      </Unit15>
+      <Unit16>
+        <Filename Value="usr/local/share/lazarus/lcl/include/messagedialogs.inc"/>
+        <TopLine Value="239"/>
+        <CursorPos Y="276"/>
+        <UsageCount Value="1"/>
+      </Unit16>
+      <Unit17>
+        <Filename Value="usr/local/share/fpcsrc/rtl/unix/sysunixh.inc"/>
+        <TopLine Value="9"/>
+        <CursorPos X="2" Y="28"/>
+        <UsageCount Value="1"/>
+      </Unit17>
+      <Unit18>
+        <Filename Value="usr/local/share/lazarus/lcl/dynhasharray.pp"/>
+        <UnitName Value="DynHashArray"/>
+        <TopLine Value="321"/>
+        <CursorPos Y="341"/>
+        <UsageCount Value="3"/>
+      </Unit18>
+      <Unit19>
+        <Filename Value="usr/local/share/fpcsrc/rtl/unix/sysutils.pp"/>
+        <TopLine Value="2"/>
+        <CursorPos X="16" Y="20"/>
+        <UsageCount Value="3"/>
+      </Unit19>
+      <Unit20>
+        <Filename Value="usr/local/share/fpcsrc/rtl/objpas/sysutils/sysutilh.inc"/>
+        <CursorPos X="12" Y="19"/>
+        <UsageCount Value="3"/>
+      </Unit20>
+      <Unit21>
+        <Filename Value="usr/local/share/fpcsrc/rtl/objpas/sysutils/diskh.inc"/>
+        <UsageCount Value="3"/>
+      </Unit21>
+      <Unit22>
+        <Filename Value="usr/local/share/fpcsrc/rtl/objpas/sysutils/osutilsh.inc"/>
+        <TopLine Value="19"/>
+        <CursorPos Y="37"/>
+        <UsageCount Value="3"/>
+      </Unit22>
+      <Unit23>
+        <Filename Value="usr/share/lazarus/lcl/dynhasharray.pp"/>
+        <UnitName Value="DynHashArray"/>
+        <TopLine Value="324"/>
+        <CursorPos Y="341"/>
+        <UsageCount Value="3"/>
+      </Unit23>
+      <Unit24>
+        <Filename Value="../../lazarus/lcl/graphics.pp"/>
+        <UnitName Value="Graphics"/>
+        <TopLine Value="928"/>
+        <CursorPos Y="943"/>
+        <UsageCount Value="7"/>
+      </Unit24>
+      <Unit25>
+        <Filename Value="../../lazarus/fpcsrc/fcl/image/fpcanvas.pp"/>
+        <UnitName Value="FPCanvas"/>
+        <TopLine Value="154"/>
+        <CursorPos X="31" Y="253"/>
+        <UsageCount Value="5"/>
+      </Unit25>
+      <Unit26>
+        <Filename Value="../../lazarus/lcl/include/bitmapcanvas.inc"/>
+        <TopLine Value="98"/>
+        <UsageCount Value="5"/>
+      </Unit26>
+      <Unit27>
+        <Filename Value="../../lazarus/lcl/include/graphic.inc"/>
+        <TopLine Value="206"/>
+        <UsageCount Value="5"/>
+      </Unit27>
+      <Unit28>
+        <Filename Value="../../lazarus/lcl/include/canvas.inc"/>
+        <TopLine Value="72"/>
+        <CursorPos X="17" Y="89"/>
+        <UsageCount Value="6"/>
+      </Unit28>
+      <Unit29>
+        <Filename Value="../../lazarus/lcl/include/winapih.inc"/>
+        <TopLine Value="211"/>
+        <CursorPos X="10" Y="229"/>
+        <UsageCount Value="6"/>
+      </Unit29>
+      <Unit30>
+        <Filename Value="../../lazarus/fpcsrc/packages/extra/winunits/mmsystem.pp"/>
+        <TopLine Value="2759"/>
+        <CursorPos X="19" Y="2788"/>
+        <UsageCount Value="4"/>
+      </Unit30>
+      <Unit31>
+        <Filename Value="usr/share/lazarus/lcl/controls.pp"/>
+        <UnitName Value="Controls"/>
+        <TopLine Value="113"/>
+        <CursorPos X="25" Y="128"/>
+        <UsageCount Value="7"/>
+      </Unit31>
+      <Unit32>
+        <Filename Value="usr/lib/fpc/src/rtl/objpas/classes/classesh.inc"/>
+        <TopLine Value="93"/>
+        <CursorPos X="11" Y="87"/>
+        <UsageCount Value="7"/>
+      </Unit32>
+      <Unit33>
+        <Filename Value="umainform.lrs"/>
+        <UsageCount Value="5"/>
+      </Unit33>
+    </Units>
+    <JumpHistory Count="3" HistoryIndex="2">
+      <Position1>
+        <Filename Value="robot.lpr"/>
+        <Caret Line="16"/>
+      </Position1>
+      <Position2>
+        <Filename Value="umainform.pas"/>
+        <Caret Line="203" Column="5" TopLine="206"/>
+      </Position2>
+      <Position3>
+        <Filename Value="umainform.pas"/>
+        <Caret Line="1758" Column="38" TopLine="1744"/>
+      </Position3>
+    </JumpHistory>
+  </ProjectOptions>
+  <CompilerOptions>
+    <Version Value="11"/>
+    <Target>
+      <Filename Value="robot"/>
+    </Target>
+    <Parsing>
+      <SyntaxOptions>
+        <UseAnsiStrings Value="False"/>
+      </SyntaxOptions>
+    </Parsing>
+    <Linking>
+      <Debugging>
+        <DebugInfoType Value="dsDwarf3"/>
+      </Debugging>
+      <Options>
+        <Win32>
+          <GraphicApplication Value="True"/>
+        </Win32>
+      </Options>
+    </Linking>
+    <Other>
+      <Verbosity>
+        <ShowExecInfo Value="True"/>
+      </Verbosity>
+      <CreateMakefileOnBuild Value="True"/>
+    </Other>
+  </CompilerOptions>
+  <Debugging>
+    <Exceptions Count="2">
+      <Item1>
+        <Name Value="ECodetoolError"/>
+      </Item1>
+      <Item2>
+        <Name Value="EFOpenError"/>
+      </Item2>
+    </Exceptions>
+  </Debugging>
+</CONFIG>
